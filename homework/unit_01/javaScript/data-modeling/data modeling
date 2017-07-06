@@ -1,0 +1,141 @@
+1. This app is for managing a to-do list. The app will need to have a feature to keep track of different tasks that can be entered into the app and checked off the to-do list. We will also need to have the option to compile groups of tasks into single projects.
+
+Task {
+	
+	- name of the task
+	- a time when the task is initiated 
+	- a time when the task is completed
+}
+
+
+var task {
+	name: 'grocery shopping',
+	dateStart: '05/05/17',
+	dateCompleted: 05/05/17
+}
+
+
+Project {
+	
+	-name of the project
+	-description of the project
+	- a group of tasks that are associated with the project
+};
+
+
+var project = {
+	name: 'Home Improvements"
+	description: 'Build a fence',
+	setOfTasks: ['Go to Home Depot', 'Buy supplies', 'Build fence', 'Paint fence']
+};
+
+
+
+
+2. This app will use several abstractions. Because it is an app meant to be shared among friends we will have User, Photos, and Albums to put the photos in.
+
+
+User {
+	
+	-name
+	-pictures they have uploaded
+	-albums they have made
+}
+
+Album {
+	- name
+	- date
+	- pictures
+}
+
+Photo {
+	
+	- name
+	- date
+	- a URL 
+}
+
+
+var user = {
+	username: mr. robot
+	imagesUploaded: ['images/pic.jpg']
+	albumsCreated: ['My vacation', 'Birthday Party']
+}
+
+
+3. Because this app will be for managing the temperature in a house and keeping track of time and the lighting system we will need several things. 
+
+House {
+	
+	- temperature
+	- lights
+}
+
+Lights {
+	
+	-location/area of the house
+	- brightness/dimness
+
+}
+
+Timer {
+	
+	-settings
+	-stop 
+	-start 
+} 
+
+
+var light = {
+	brightnessLevel: 'dim',
+	location: 'dining room'
+	name: 'dining room chandlier'
+};
+
+var house = {
+	temp: '74 degrees'
+	setOfLights:['living room', 'bedroom', 'kitchen', 'garage', 'bathroom']
+};
+
+
+4. This app for a sneaker store will have a lof of possible entities and abstractions. Because we will have a lot of different parameters we might need to add different information to the entities.
+
+Shoe
+ -name
+ -description
+ -price
+ -materials
+
+ Order Item
+   - product
+   -quantity/amount
+
+   Order:
+   - different order items
+   - a date when the order is made
+   - a update on the status of your order
+   - confirmation order has been sent
+ 
+
+
+   var shoe = [Nike Air Max]
+
+var shoeOrder = {product:'nike air max', quanity:1};
+
+var order: {orderItems:[nike air max],dateOfOrder: 05/05/17, status:'processing',dateShipped:'null'};
+
+
+
+5. The examples for the subway system are short and concise. This makes things simple and the description and names of the stations are helpful. But I think maybe there should be more specific properties for each abstraction. Like times that trains are entering the station and the distance and time it takes between each station.
+
+
+
+6. For the app which helps patients and doctors to schedule appointments the first example is more beneficial for the doctor to keep track of his own patients but it's not that easy to find if the doctor's patient may also being going to another doctor and has multiple appointments.
+
+The second example will be harder to find ALL the appointments that a doctor has available and also will be the same case for all appointments that a patient may have.
+
+
+
+
+
+
