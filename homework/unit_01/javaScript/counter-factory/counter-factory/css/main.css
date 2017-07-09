@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+}
+
+.component {
+  padding: 30px;
+  background-color: pink;
+  margin: 10px;
+}
+
+main {
+  width: auto;
+  float: left;
+}
+
+.counter {
+  border: black solid 1px;
+  margin: 1px;
+  text-align: center;
+  background-color: violet;
+  width: 150px;
+  float: left;
+}
