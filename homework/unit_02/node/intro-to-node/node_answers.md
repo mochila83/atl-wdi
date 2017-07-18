@@ -1,41 +1,36 @@
-# A Closer Look at npm
-- Take a look at npm's [most starred packages](https://www.npmjs.com/browse/star) on the npmjs website
-- Record your answers below
-- Bonus points: formatting this into a table
+# TOP 6 HIGHEST RATED PACKAGES
 
-### The 6 highest-starred npm packages are:
+lodash
+Lodash modular utilities.
+4.17.4 published 7 months ago by jdalton
+request
+Simplified HTTP request client.
+2.81.0 published 4 months ago by simov
+async
+Higher-order functions and common patterns for asynchronous code
+2.5.0 published 3 weeks ago by aearly
+chalk
+Terminal string styling done right. Much color
+2.0.1 published 3 weeks ago by qix
+express
+Fast, unopinionated, minimalist web framework
+4.15.3 published 2 months ago by dougwilson
+bluebird
+Full featured Promises/A+ implementation with exceptionally good performance
+3.5.0 published 5 months ago by esailija
 
-# Library 1 Name
 
-### Description:
-brief brief description here
+# NUMBER OF DOWNLOADS PER MONTH
 
-### Total Downloads last month:
+Lodash - 42,048,376
 
-# Library 2 Name
+Request - 23,986,721
 
-### Description:
-brief description here
+Async - 45,047,894
 
-### Total Downloads last month:
+Chalk - 25,598,095
 
-# Library 3 Name
+Express - 13,114,712
 
-### Description:
-brief description here
+Bluebird - 15,794,332
 
-### Total Downloads last month:
-
-# Library 4 Name
-
-### Description:
-brief description here
-
-### Total Downloads last month:
-
-# Library 5 Name
-
-### Description:
-brief description here
-
-### Total Downloads last month:
