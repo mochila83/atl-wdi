@@ -1,0 +1,14 @@
+<h1> You have {{todos.length}} Todos </h1>
+<ul>
+  {{#each todos}}
+    <li>Description: <a href="/todos/{{@index}}">{{description}}</a></li> 
+
+    //at index is index of array you are looking through
+
+
+    <li>Urgent: {{urgent}}</li>
+    <br>
+  {{/each}}
+</ul>
+
+
